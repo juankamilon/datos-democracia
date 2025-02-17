@@ -7,3 +7,8 @@ p_load(
   ggplot2,
 )
 
+#Cargar Datos 
+
+install.packages("gapminder")
+library(gapminder)
+head(gapminder)
