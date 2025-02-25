@@ -7,5 +7,7 @@ p_load(
   ggplot2,
 )
 
-#Juan Kamilo Narvaez
-p_load("")
+
+install.packages("gapminder")
+library(gapminder)
+head(gapminder)
